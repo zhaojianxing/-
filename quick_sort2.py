@@ -24,6 +24,6 @@ def qsort(arr):
         right = qsort([x for x in arr[1:] if x >= pivot])
     return left+[pivot]+right
 if __name__ == '__main__':
-    arry = [49,38,65,97,76,13,27,38]
+    arry = [22,49,38,65,97,76,13,27,38]
     a = qsort(arry)
     print(a)
